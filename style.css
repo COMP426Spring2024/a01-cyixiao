@@ -145,11 +145,13 @@ td {
   font-family: American Typewriter, serif;
 }
 
-td > a, .char-item > a{
+td > a,
+.char-item > a {
   color: #2e2d2b;
 }
 
-td > a:hover, .char-item > a:hover{
+td > a:hover,
+.char-item > a:hover {
   color: #609ace;
 }
 
@@ -226,8 +228,6 @@ div#tale > div {
 .next-story-container {
   background-color: black;
   padding-bottom: 10px;
-  padding-left: auto;
-  padding-right: auto;
   display: flex;
   justify-content: center;
 }
@@ -277,7 +277,7 @@ video {
   font-size: xxx-large;
   font-family: Apple Chancery, cursive;
   font-weight: bold;
-  text-shadow: 3px 3px 3px #EA5268;
+  text-shadow: 3px 3px 3px #ea5268;
   color: #fffdd0;
 }
 
@@ -285,7 +285,7 @@ video {
   font-size: x-large;
   font-family: American Typewriter, serif;
   color: #fffdd0;
-  text-shadow: 3px 3px 3px #EA5268;
+  text-shadow: 3px 3px 3px #ea5268;
 }
 
 .char-item {
@@ -294,14 +294,12 @@ video {
 
 .char-item > a {
   color: #fffdd0;
-  text-shadow: 3px 3px 3px #EA5268;
+  text-shadow: 3px 3px 3px #ea5268;
 }
 
 .more-button-container {
   background-color: #222d5a;
   padding-bottom: 10px;
-  padding-left: auto;
-  padding-right: auto;
   display: flex;
   justify-content: center;
 }
@@ -327,6 +325,6 @@ video {
 }
 
 .more-button:hover {
-  background-color: #091B34;
+  background-color: #091b34;
   border-color: #fae894;
 }
